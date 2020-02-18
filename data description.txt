@@ -1,0 +1,21 @@
+Bank A has been faced with alot of issues from their customer who were being defrauded. 
+You are the data scientist whom they think could solve their problem of identifying fradulent transactions
+in their customers account. You are therefore called to design an AI system that intuitively identifies 
+fraudulent transactions being carried out on customers account unknowingly.
+Below is a data description     
+
+id: Unique ID of each customer
+    transaction time: Time at which current transaction was taken
+    current bank amount: amount in bank as of now
+    last bank amount: amount initially in the account before current amount.
+    most recent bank amount (mrba): previous amount before the last bank amount.
+    time taken: time taken for bank transaction to be executed.
+    Account type: type of the customer account (savings or current)
+    marital status: marital status of the customer (married, single, widow)
+    age: age of the customer
+    occupation: customer's occupation
+    credit card type: type of credit card used by the customer (verve or master card)
+    Account source verification: verfication of account source to be debited if valid or not (True or false).
+    Transaction source method: verification in the method of executing transaction (True or false).
+    Account destination verification: verification of account to be credited if valid or not (True or false).
+    fradulent: 0 (not fradulent) and 1 (fradulent)
